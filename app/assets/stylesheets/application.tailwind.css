@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
+@layer utilities {
+  .link {
+    @apply text-white tracking-wide;
 
-@layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+    &:hover {
+      @apply text-rose-600;
+    }
   }
 }
-
-*/
